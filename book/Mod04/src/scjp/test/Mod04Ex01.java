@@ -1,4 +1,6 @@
-package project.javalearning.book.mod04;
+package scjp.test;
+
+import scjp.domain.ProductV2;
 
 public class Mod04Ex01 {
 
@@ -9,9 +11,11 @@ public class Mod04Ex01 {
 		p.setUnitPrice(45500);
 		System.out.println(p.getId());
 		System.out.println(p.getName());
-		/*pencil.setId(1);
+		
+		ProductV2 pencil = new ProductV2();
+		pencil.setId(1);
 		pencil.setName("pencil");
-		pencil.setUnitPrice(5);*/
+		pencil.setUnitPrice(5);
 	}
 
 }
